@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1071e4-072a-4f1e-b45f-cdfbaa3db5be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/cabinvoicegenerator/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/cabinvoicegenerator/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.CabInvoiceGenerator.executor": "Debug",
+    "Application.CabInvoiceGenerator.executor": "Run",
+    "JUnit.InvoiceGeneratorTest.testCalculateFare.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -47,7 +45,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.testCalculateFare">
     <configuration name="CabInvoiceGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.CabInvoiceGenerator" />
       <module name="cab-invoice-generator" />
@@ -61,8 +59,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceGeneratorTest.testCalculateFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.cabinvoicegenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.cabinvoicegenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="testCalculateFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceGeneratorTest.testCalculateFare" />
         <item itemvalue="Application.CabInvoiceGenerator" />
       </list>
     </recent_temporary>
