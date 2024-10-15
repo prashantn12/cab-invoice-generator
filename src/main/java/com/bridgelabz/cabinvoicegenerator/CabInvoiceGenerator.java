@@ -12,10 +12,22 @@ public class CabInvoiceGenerator {
         return Math.max(totalFare, MINIMUM_FARE);
     }
 
+    public double calculateFare(Ride[] rides) {
+        double totalFare = 0;
+        for (Ride ride : rides) {
+            totalFare = totalFare +calculateFare(ride.distance, ride.time);
+        }
+        return totalFare;
+    }
+
     public static void main(String[] args) {
         CabInvoiceGenerator invoiceGenerator = new CabInvoiceGenerator();
         double distance = 3.0;
         double time = 15.0;
+
+        Ride[] rides = {new Ride(3.0, 15.0), new Ride(5.0, 20.0)};
+
+        System.out.println("Total fare for all rides: Rs. " + invoiceGenerator.calculateFare(rides));
         System.out.println(invoiceGenerator.calculateFare(distance,time));
     }
 }
