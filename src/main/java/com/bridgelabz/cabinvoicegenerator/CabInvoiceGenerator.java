@@ -20,16 +20,21 @@ public class CabInvoiceGenerator {
         return new InvoiceSummary(rides.length, totalFare);
     }
     public static void main(String[] args) {
-        CabInvoiceGenerator invoiceGenerator = new CabInvoiceGenerator();
-        double distance = 3.0;
-        double time = 15.0;
+        InvoiceService invoiceService = new InvoiceService();
 
-        Ride[] rides = {new Ride(3.0, 15.0), new Ride(5.0, 20.0)};
+        // Add rides for different users
+        Ride[] user1Rides = {new Ride(3.0, 15.0), new Ride(5.0, 20.0)};
+        Ride[] user2Rides = {new Ride(10.0, 25.0), new Ride(7.0, 15.0)};
 
-        System.out.println("Total fare for all rides: Rs. " + invoiceGenerator.calculateFare(rides));
+        invoiceService.addRides("user1", user1Rides);
+        invoiceService.addRides("user2", user2Rides);
 
-        InvoiceSummary summary = invoiceGenerator.calculateFare(rides);
+        // Generate and display the invoice for user1
+        InvoiceSummary user1Invoice = invoiceService.getInvoice("user1");
+        System.out.println("Invoice for user1:\n" + user1Invoice);
 
-        System.out.println(summary);
+        // Generate and display the invoice for user2
+        InvoiceSummary user2Invoice = invoiceService.getInvoice("user2");
+        System.out.println("Invoice for user2:\n" + user2Invoice);
     }
 }

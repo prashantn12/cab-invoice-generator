@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1071e4-072a-4f1e-b45f-cdfbaa3db5be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/cabinvoicegenerator/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/cabinvoicegenerator/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
     "Application.CabInvoiceGenerator.executor": "Run",
     "JUnit.InvoiceGeneratorTest.testCalculateFare.executor": "Run",
     "JUnit.InvoiceGeneratorTest.testCalculateFareForMultipleRides.executor": "Run",
+    "JUnit.InvoiceGeneratorTest.testInvoiceForMultipleUsers.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -90,9 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceGeneratorTest.testInvoiceForMultipleUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.cabinvoicegenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.cabinvoicegenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="testInvoiceForMultipleUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InvoiceGeneratorTest.testCalculateFareForMultipleRides" />
+        <item itemvalue="JUnit.InvoiceGeneratorTest.testInvoiceForMultipleUsers" />
         <item itemvalue="Application.CabInvoiceGenerator" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.testCalculateFare" />
       </list>
