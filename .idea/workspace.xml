@@ -7,6 +7,7 @@
     <list default="true" id="9d1071e4-072a-4f1e-b45f-cdfbaa3db5be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/Ride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/cabinvoicegenerator/InvoiceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/cabinvoicegenerator/InvoiceGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +40,16 @@
     "Application.CabInvoiceGenerator.executor": "Run",
     "JUnit.InvoiceGeneratorTest.testCalculateFare.executor": "Run",
     "JUnit.InvoiceGeneratorTest.testCalculateFareForMultipleRides.executor": "Run",
+    "JUnit.InvoiceGeneratorTest.testInvoiceForMultipleRideTypes.executor": "Run",
     "JUnit.InvoiceGeneratorTest.testInvoiceForMultipleUsers.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "step4-InvoiceService",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.testCalculateFareForMultipleRides">
+  <component name="RunManager" selected="JUnit.InvoiceGeneratorTest.testInvoiceForMultipleUsersWithRideTypes">
     <configuration name="CabInvoiceGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.CabInvoiceGenerator" />
       <module name="cab-invoice-generator" />
@@ -57,22 +59,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvoiceGeneratorTest.testCalculateFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cab-invoice-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.cabinvoicegenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.cabinvoicegenerator" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.InvoiceGeneratorTest" />
-      <option name="METHOD_NAME" value="testCalculateFare" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +74,22 @@
       <option name="PACKAGE_NAME" value="com.bridgelabz.cabinvoicegenerator" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.InvoiceGeneratorTest" />
       <option name="METHOD_NAME" value="testCalculateFareForMultipleRides" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceGeneratorTest.testInvoiceForMultipleRideTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.cabinvoicegenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.cabinvoicegenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="testInvoiceForMultipleRideTypes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,12 +111,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceGeneratorTest.testInvoiceForMultipleUsersWithRideTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.cabinvoicegenerator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.cabinvoicegenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.cabinvoicegenerator.InvoiceGeneratorTest" />
+      <option name="METHOD_NAME" value="testInvoiceForMultipleUsersWithRideTypes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceGeneratorTest.testInvoiceForMultipleUsersWithRideTypes" />
+        <item itemvalue="JUnit.InvoiceGeneratorTest.testInvoiceForMultipleRideTypes" />
+        <item itemvalue="Application.CabInvoiceGenerator" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.testCalculateFareForMultipleRides" />
         <item itemvalue="JUnit.InvoiceGeneratorTest.testInvoiceForMultipleUsers" />
-        <item itemvalue="Application.CabInvoiceGenerator" />
-        <item itemvalue="JUnit.InvoiceGeneratorTest.testCalculateFare" />
       </list>
     </recent_temporary>
   </component>
@@ -128,5 +147,20 @@
       <updated>1728973419420</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bridgelabz/cabinvoicegenerator/CabInvoiceGenerator.java</url>
+          <line>39</line>
+          <properties class="com.bridgelabz.cabinvoicegenerator.CabInvoiceGenerator" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
